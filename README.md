@@ -486,6 +486,8 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   ```
 - **Aura**
   ```
+  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.221.0.0/16
+  
   route add -net 192.221.24.0 netmask 255.255.248.0 gw 192.221.0.18	#A1LaubHills,AppetitRegion
   route add -net 192.221.0.4 netmask 255.255.255.252 gw 192.221.0.18	#A13Flamme-Fern
   route add -net 192.221.8.0 netmask 255.255.252.0 gw 192.221.0.18	#A2RohrRoad
@@ -506,6 +508,10 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   route add -net 192.221.0.32 netmask 255.255.255.252 gw 192.221.0.26	#A20Linie-Lawine
   route add -net 192.221.0.128 netmask 255.255.255.192 gw 192.221.0.26	#A5BredtRegion,Heiter
   route add -net 192.221.16.0 netmask 255.255.252.0 gw 192.221.0.26	#A11Sein,RiegelCanyon
+  ```
+- **All Except Aura**
+  ```
+  echo nameserver 192.168.122.1 > /etc/resolv.conf
   ```
 
 ### Testing
