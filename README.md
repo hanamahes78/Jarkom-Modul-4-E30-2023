@@ -15,6 +15,8 @@ Berikut repository dari Kelompok E30 Praktikum Modul 4 Jaringan Komputer.
 
 Berikut adalah topologi yang digunakan. 
 
+![Topologi_Soal](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/e6ceac35-9055-475d-8e2a-2f035e3944bc)
+
 - Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
   Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya
 - Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal BERSIFAT BENAR dan DAPAT DIKERJAKAN.
@@ -32,12 +34,15 @@ Berikut adalah topologi yang digunakan.
 ### Pembagian Subnet
 Pertama, dibuat plotting subnettingnya.
 
+![VLSM_Subnet](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/befd5a8f-9ecb-4d00-9ec8-0f0a712d238b)
+
 Kemudian dilakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan.
 
 
 ### Tree
 Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutuhan masing-masing subnet yang ada. Dimulai dari 192.221.0.0/19 kemudian bagi menjadi dua bagian, lakukan cara yang sama hingga 192.221.x.x/30.
 
+![VLSM_Tree](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/947061b6-be93-4606-951e-69bfc1f1d008)
 
 ### VLSM-IP
 
