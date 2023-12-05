@@ -269,7 +269,7 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   	address 192.221.16.1
   	netmask 255.255.252.0
   ```
-- **LakeKorridor (24 Host)**
+- **PC LakeKorridor (24 Host)**
   ```
   #A4 PCLakeKorridor-Frieren
   auto eth0
@@ -278,7 +278,142 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   	netmask 255.255.255.224
   	gateway 192.221.0.65
   ```
-
+- **PC RohrRoad (1000 Host)**
+  ```
+  #A1 PCRohrRoad-Flamme
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.8.2
+  	netmask 255.255.252.0
+  	gateway 192.221.8.1
+  ```
+- **PC LaubHills (397 Host)**
+  ```
+  #A1 LaubHills-Fern
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.24.2
+  	netmask 255.255.248.0
+  	gateway 192.221.24.1
+  ```
+- **PC AppetitRegion (625 Host)**
+  ```
+  #A1 PCAppetitRegion-Fern
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.24.3
+  	netmask 255.255.248.0
+  	gateway 192.221.24.1
+  ```
+- **PC SchwerMountains (5 Host)**
+  ```
+  #A3 PCSchwerMountains-Himmel
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.0.42
+  	netmask 255.255.255.248
+  	gateway 192.221.0.41
+  ```
+- **PC RoyalCapital (63 Host)**
+  ```
+  #A9 PCRoyalCapital-Denken
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.2.2
+  	netmask 255.255.255.0
+  	gateway 192.221.2.1
+  ```
+- **WilleRegion (63 Host)**
+  ```
+  #A9 PC WilleRegion-Denken
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.2.3
+  	netmask 255.255.255.0
+  	gateway 192.221.2.1
+  ```
+- **Server Richter**
+  ```
+  #A10 ServerRitcher-Eisen
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.0.50
+  	netmask 255.255.255.248
+  	gateway 192.221.0.49
+  ```
+- **Server Revolte**
+  ```
+  #A10 ServerRitcher-Eisen
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.0.51
+  	netmask 255.255.255.248
+  	gateway 192.221.0.49
+  ```
+- **Server Stark**
+  ```
+  #A12 Stark-Eisen
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.0.2
+  	netmask 255.255.255.252
+  	gateway 192.221.0.1
+  ```
+- **PC TurkRegion (1000 Host)**
+  ```
+  #A8 PCTurkRegion-Lugner
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.12.2
+  	netmask 255.255.252.0
+  	gateway 192.221.12.1
+  ```
+- **PC GrobeForest (250 Host)**
+  ```
+  #A7 PCGrobeForest-Lugner
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.1.2
+  	netmask 255.255.255.0
+  	gateway 192.221.1.1
+  ```
+- **PC GranzChannel (254 Host)**
+  ```
+  #A6 PCGranzChannel-Linie
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.4.2
+  	netmask 255.255.254.0
+  	gateway 192.221.4.1
+  ```
+- **PC BredtRegion (29 Host)**
+  ```
+  #A5 PCBredtRegion-Lawine
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.0.130
+  	netmask 255.255.255.192
+  	gateway 192.221.0.129
+  ```
+- **Server Sein**
+  ```
+  #A11 ServerSein-Heiter
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.16.2
+  	netmask 255.255.252.0
+  	gateway 192.221.16.1
+  ```
+- **PC RiegelCanyon (510 Host)**
+  ```
+  #A11 PC RiegelCanyon-Heiter
+  auto eth0
+  iface eth0 inet static
+  	address 192.221.16.3
+  	netmask 255.255.252.0
+  	gateway 192.221.16.1
+  ```
+  
 ### Konfigurasi Routing
 
 - **ThePerformance**
