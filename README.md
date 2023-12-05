@@ -474,26 +474,26 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   ```
 - **Aura**
   ```
-  route add -net 192.221.24.0 netmask 255.255.248.0 gw 192.221.0.18	    #A1LaubHills,AppetitRegion
-  route add -net 192.221.0.4 netmask 255.255.255.252 gw 192.221.0.18	  #A13Flamme-Fern
-  route add -net 192.221.8.0 netmask 255.255.252.0 gw 192.221.0.18	    #A2RohrRoad
-  route add -net 192.221.0.40 netmask 255.255.255.248 gw 192.221.0.18	  #A3SchwerMountains
-  route add -net 192.221.0.8 netmask 255.255.255.252 gw 192.221.0.18	  #A14Flamme-Himmel
-  route add -net 192.221.0.12 netmask 255.255.255.252 gw 192.221.0.18	  #A15Frieren-Flamme
-  route add -net 192.221.0.64 netmask 255.255.255.224 gw 192.221.0.18	  #A4LakeKorridor
+  route add -net 192.221.24.0 netmask 255.255.248.0 gw 192.221.0.18	#A1LaubHills,AppetitRegion
+  route add -net 192.221.0.4 netmask 255.255.255.252 gw 192.221.0.18	#A13Flamme-Fern
+  route add -net 192.221.8.0 netmask 255.255.252.0 gw 192.221.0.18	#A2RohrRoad
+  route add -net 192.221.0.40 netmask 255.255.255.248 gw 192.221.0.18	#A3SchwerMountains
+  route add -net 192.221.0.8 netmask 255.255.255.252 gw 192.221.0.18	#A14Flamme-Himmel
+  route add -net 192.221.0.12 netmask 255.255.255.252 gw 192.221.0.18	#A15Frieren-Flamme
+  route add -net 192.221.0.64 netmask 255.255.255.224 gw 192.221.0.18	#A4LakeKorridor
   
-  route add -net 192.221.2.0 netmask 255.255.255.0 gw 192.221.0.22	    #A9RoyalCapital,WilleRegion
+  route add -net 192.221.2.0 netmask 255.255.255.0 gw 192.221.0.22	#A9RoyalCapital,WilleRegion
   
-  route add -net 192.221.0.48 netmask 255.255.255.248 gw 192.221.0.26  	#A10Ritcher,Revolte
-  route add -net 192.221.0.0 netmask 255.255.255.252 gw 192.221.0.26	  #A12Eisen-Stark
-  route add -net 192.221.0.36 netmask 255.255.255.252 gw 192.221.0.26  	#A21Eisen-Lugner
-  route add -net 192.221.12.0 netmask 255.255.252.0 gw 192.221.0.26	    #A8TurkRegion
-  route add -net 192.221.1.0 netmask 255.255.255.0 gw 192.221.0.26	    #A7GrobeForest
-  route add -net 192.221.0.28 netmask 255.255.255.252 gw 192.221.0.26	  #A19Eisen-Linie
-  route add -net 192.221.4.0 netmask 255.255.254.0 gw 192.221.0.26	    #A6GranzChannel
-  route add -net 192.221.0.32 netmask 255.255.255.252 gw 192.221.0.26	  #A20Linie-Lawine
+  route add -net 192.221.0.48 netmask 255.255.255.248 gw 192.221.0.26	#A10Ritcher,Revolte
+  route add -net 192.221.0.0 netmask 255.255.255.252 gw 192.221.0.26	#A12Eisen-Stark
+  route add -net 192.221.0.36 netmask 255.255.255.252 gw 192.221.0.26	#A21Eisen-Lugner
+  route add -net 192.221.12.0 netmask 255.255.252.0 gw 192.221.0.26	#A8TurkRegion
+  route add -net 192.221.1.0 netmask 255.255.255.0 gw 192.221.0.26	#A7GrobeForest
+  route add -net 192.221.0.28 netmask 255.255.255.252 gw 192.221.0.26	#A19Eisen-Linie
+  route add -net 192.221.4.0 netmask 255.255.254.0 gw 192.221.0.26	#A6GranzChannel
+  route add -net 192.221.0.32 netmask 255.255.255.252 gw 192.221.0.26	#A20Linie-Lawine
   route add -net 192.221.0.128 netmask 255.255.255.192 gw 192.221.0.26	#A5BredtRegion,Heiter
-  route add -net 192.221.16.0 netmask 255.255.252.0 gw 192.221.0.26	    #A11Sein,RiegelCanyon
+  route add -net 192.221.16.0 netmask 255.255.252.0 gw 192.221.0.26	#A11Sein,RiegelCanyon
   ```
 
 ### Testing
