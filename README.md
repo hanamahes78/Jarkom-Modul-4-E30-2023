@@ -418,11 +418,11 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
 
 - **Fern**
   ```
-  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.5	#default A1,A13
+  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.5			#default A1,A13
   ```
 - **Himmel**
   ```
-  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.9	#default A3,A14
+  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.9			#default A3,A14
   ```
 - **Flamme**
   ```
@@ -441,15 +441,15 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   ```
 - **Denken**
   ```
-  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.21	#default A9,A17
+  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.21			#default A9,A17
   ```
 - **Lugner**
   ```
-  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.37	#default A8,A7,A21
+  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.37			#default A8,A7,A21
   ```
 - **Heiter**
   ```
-  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.129	#default A11,A5
+  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.221.0.129			#default A11,A5
   ```
 - **Lawine**
   ```
