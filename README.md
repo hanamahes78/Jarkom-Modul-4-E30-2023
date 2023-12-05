@@ -38,6 +38,7 @@ Pertama, dibuat plotting subnettingnya.
 
 Kemudian dilakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan.
 
+![VLSM_Rute](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/c7d505e9-28b8-47a8-b635-a02629984714)
 
 ### Tree
 Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutuhan masing-masing subnet yang ada. Dimulai dari 192.221.0.0/19 kemudian bagi menjadi dua bagian, lakukan cara yang sama hingga 192.221.x.x/30.
@@ -46,7 +47,11 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
 
 ### VLSM-IP
 
+![VLSM_PembagianIP](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/7e48d07c-da58-4097-8132-55336fc5484f)
+
 ### Konfigurasi Node
+
+![VLSM_Config](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/68fdeacd-33e8-433f-9350-8a34e184499a)
 
 - **Aura**
   ```
@@ -420,6 +425,8 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   ```
   
 ### Konfigurasi Routing
+
+![VLSM_Routing](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/a3b89a39-745d-4844-8331-010d5103f827)
 
 - **Fern**
   ```
