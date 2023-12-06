@@ -518,3 +518,17 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
 
 
 ## CIDR
+
+CIDR atau biasa dikenal Classless Inter-Domain Routing adalah suatu metode pengalamatan dan pengelompokan alamat IP yang memungkinkan penggunaan lebih efisien dari ruang alamat IP yang tersedia di Internet.
+
+### Topologi PKT 
+
+![topologi pkt](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/145383781/a19bbf3d-1aa6-41c5-849d-45d13286fd80)
+
+Disini alamat IP kelompok kami adalah 
+```
+192.221
+```
+
+
+
