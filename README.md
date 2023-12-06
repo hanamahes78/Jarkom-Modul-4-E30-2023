@@ -530,5 +530,35 @@ Disini alamat IP kelompok kami adalah
 192.221
 ```
 
+### Penggabungan IP 
+
+Hasil Penggabungan Subnet untuk CIDR ialah 
+
+![topologii](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/145383781/899f5c13-006f-442e-838b-926ef36ff6e6)
+
+### Tabel Penggabungan IP
+
+Disini kami memakai 2 penggabungan subnet. Penggabungan 2 subnet ini menghasilkan 11 penggabungan dengan hasil akhir yaitu /11.
 
 
+![penggabungan 1](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/145383781/62d5d2e1-7820-4631-bfa0-787558383f5d)
+
+![penggabungan 2](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/145383781/dfa2fbf3-4a28-4f98-8b4f-76865f562757)
+
+
+### Tree
+
+Hasil Tree CIDR ialah
+
+ ![FIXBGTTREE](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/145383781/5191c4fe-0155-4013-a7b8-62da58e985e3)
+
+ Berdasarkan Prefix IP kami yaitu 192.221 , dilakukan pembuatan tree CIDR dan penentuan Network ID berdasarkan penggabungan IP sebagai berikut.
+
+ ### Pembagian IP
+
+ ![pembagian](https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/145383781/c83a2ee2-4816-4597-b7b3-a40bc1e493ec)
+
+### Testing
+```
+https://drive.google.com/drive/folders/1-bpsOqEj6Wvo-4aBPEIfYkjsnjLOGWin
+```
