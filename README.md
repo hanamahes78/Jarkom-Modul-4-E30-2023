@@ -515,7 +515,41 @@ Selanjutnya dilakukan pembagian IP Address menggunakan tree sesuai dengan kebutu
   ```
 
 ### Testing
+Testing dari Server ke Server
 
+- Sein-Richter
+
+  <img width="423" alt="Screenshot (507)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/9cb3d4cb-8a45-41da-97c8-b2904037b7e7">
+
+Testing dari Client ke Client
+
+- GranzChannel-TurkRegion
+
+  <img width="423" alt="Screenshot (506)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/4818f852-1666-4d66-bfb2-5a793f3bc361">
+
+- RoyalCapital-LaubHills
+
+  <img width="423" alt="Screenshot (503)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/35b49712-37e5-4939-be4b-eef444426f61">
+
+Testing dari Client ke Router
+
+- RiegelCanyon-Aura
+
+  <img width="423" alt="Screenshot (505)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/95a08c7b-a57c-4aa9-84e6-1610d3a0c6f8">
+
+- SchwerMountains-Lugner
+
+  <img width="423" alt="Screenshot (501)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/c3aa7c7f-dae7-4f65-a9bb-6a5812efc615">
+
+Testing dari Router ke Router
+
+- Fern-Linie
+
+  <img width="423" alt="Screenshot (504)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/4d3d023a-8b84-4c54-9cfe-15c6936c58b1">
+
+- Heiter-Denken
+
+  <img width="423" alt="Screenshot (502)" src="https://github.com/hanamahes78/Jarkom-Modul-4-E30-2023/assets/108173681/0a8ec948-fe68-4cca-abcc-a2b1f20372a5">
 
 ## CIDR
 
